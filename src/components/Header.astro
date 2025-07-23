@@ -71,7 +71,9 @@
 	const input = document.querySelector('.theme-controller');
 
 	if (input instanceof HTMLInputElement) {
-		input.checked = localStorage.getItem('theme') === 'dark';
+		input.checked =
+			window.matchMedia('(prefers-color-scheme: dark)').matches ||
+			localStorage.getItem('theme') === 'dark';
 
 		const toggleTheme = () => {
 			if (input instanceof HTMLInputElement) {
