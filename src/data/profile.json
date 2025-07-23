@@ -1,0 +1,15 @@
+[
+	{
+		"$schema": "../../.astro/collections/profile.schema.json",
+		"id": "default",
+		"name": "Ahmad Yasser",
+		"avatar_url": "/avatar.jpg",
+		"profession": "Software Developer",
+		"description": "I'm an efficient full-stack developer with a focus on fast problem-solving, typed languages, and test-driven workflows. Skilled in API integration and modern JavaScript frameworks like SvelteKit, Vue, and Astro. Writes clean, scalable code using utility-first CSS (Tailwind) and solid OOP principles (Java).",
+		"social": {
+			"email": "aynlazur@gmail.com",
+			"whatsapp": "https://wa.me/62887435034436",
+			"github": "https://github.com/ahmadyasser72"
+		}
+	}
+]

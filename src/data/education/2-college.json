@@ -1,0 +1,10 @@
+{
+	"$schema": "../../../.astro/collections/education.schema.json",
+	"name": "Bachelor of Informatics Engineering",
+	"location": "Islamic University of Muhammad Arsyad Al Banjari Kalimantan",
+	"gpa": 3.75,
+	"period": {
+		"start": "2022-09-01",
+		"end": "present"
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"$schema": "../../../.astro/collections/experience.schema.json",
+	"name": "Computer and Network Technician Assistant (Intern)",
+	"location": {
+		"name": "Hitro Komputer",
+		"address": "Hulu Sungai Selatan, Kalimantan Selatan",
+		"description": "Electronics store in South Kalimantan"
+	},
+	"period": {
+		"start": "2021-08-01",
+		"end": "2021-10-01"
+	},
+	"works": [
+		"Determine and identify problems in computers",
+		"Installation of Windows and GNU/Linux system operations",
+		"Changing laptop parts",
+		"Helping in network (LAN) installation"
+	]
+}

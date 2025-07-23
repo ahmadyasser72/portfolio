@@ -1,0 +1,8 @@
+{
+	"$schema": "../../../.astro/collections/projects.schema.json",
+	"title": "Multimedia English Learning Quiz",
+	"description": "ahmadyasser72/tender-telescope is a cross-platform app for learning English vocabulary by translating words into Indonesian through multiple-choice quizzes. Includes image and TTS support via external APIs, difficulty levels, and a point system with combo streaks to boost learning.",
+	"type": "website",
+	"url": "https://tender-telescope.netlify.app/",
+	"source_url": "https://github.com/ahmadyasser72/tender-telescope"
+}

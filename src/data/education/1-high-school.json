@@ -1,0 +1,10 @@
+{
+	"$schema": "../../../.astro/collections/education.schema.json",
+	"name": "Computer and Network Engineering",
+	"location": "SMKN 2 Kandangan",
+	"gpa": null,
+	"period": {
+		"start": "2019-07-01",
+		"end": "2022-06-01"
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"$schema": "../../../.astro/collections/projects.schema.json",
+	"title": "College Assignment Tracking Website",
+	"description": "ahmadyasser72/minor-motion is a task management app for students with features like assignment status tracking, calendar integration, and Google account data sync",
+	"type": "website",
+	"url": "https://minor-motion.pages.dev/",
+	"source_url": "https://github.com/ahmadyasser72/minor-motion"
+}

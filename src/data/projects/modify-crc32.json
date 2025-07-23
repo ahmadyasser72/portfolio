@@ -1,0 +1,8 @@
+{
+	"$schema": "../../../.astro/collections/projects.schema.json",
+	"title": "CRC32 Hash Editor",
+	"description": "aynh/modify-crc32 is a simple tool to modify the CRC32 checksum of any file. Supports both graphical and commandline interfaces.",
+	"type": "desktop",
+	"url": "https://github.com/aynh/modify-crc32/releases/latest",
+	"source_url": "https://github.com/aynh/modify-crc32"
+}

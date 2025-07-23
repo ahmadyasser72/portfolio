@@ -1,0 +1,8 @@
+{
+	"$schema": "../../../.astro/collections/projects.schema.json",
+	"title": "Birthday Countdown Website",
+	"description": "terworking/birthday is a website that displays a countdown to the next birthday of selected classmates. Users can choose a name from the list to view their upcoming birthday and optionally subscribe to receive a browser push notification on the day. The app also features celebratory confetti when the birthday is near.",
+	"type": "website",
+	"url": "https://terworking-birthday.pages.dev/",
+	"source_url": "https://github.com/terworking/birthday"
+}
