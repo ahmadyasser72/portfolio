@@ -95,11 +95,11 @@ const navs = (
 	if (input instanceof HTMLInputElement) {
 		input.checked =
 			window.matchMedia('(prefers-color-scheme: dark)').matches ||
-			localStorage.getItem('theme') === 'dark';
+			localStorage.getItem('theme') === 'coffee';
 
 		const toggleTheme = () => {
 			if (input instanceof HTMLInputElement) {
-				const theme = input.checked ? 'dark' : 'light';
+				const theme = input.checked ? 'coffee' : 'pastel';
 				document.documentElement.dataset.theme = theme;
 				localStorage.setItem('theme', theme);
 			}

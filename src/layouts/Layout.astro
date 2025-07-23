@@ -35,8 +35,8 @@ const { title } = Astro.props;
 		<Footer />
 
 		<script is:inline data-astro-rerun>
-			const theme = localStorage.getItem('theme');
-			if (theme !== null) document.documentElement.dataset.theme = theme ?? 'light';
+			var theme = localStorage.getItem('theme');
+			if (theme !== null) document.documentElement.dataset.theme = theme;
 		</script>
 	</body>
 </html>
