@@ -1,3 +1,19 @@
+---
+interface NavLink {
+	label: string;
+	path: string;
+}
+
+const navs = (
+	[
+		{ path: '/about', label: 'About' },
+		{ path: '/projects', label: 'Projects' },
+		{ path: '/experience', label: 'Experience' },
+		{ path: '/education', label: 'Education' },
+	] satisfies NavLink[]
+).map(({ path, label }) => ({ href: `${import.meta.env.BASE_URL}${path}`, label }));
+---
+
 <div class="navbar bg-base-100 shadow-sm">
 	<div class="navbar-start">
 		<nav class="dropdown">
@@ -20,20 +36,26 @@
 				tabindex="0"
 				class="dropdown-content menu z-1 mt-3 w-52 menu-sm rounded-box bg-base-100 p-2 shadow"
 			>
-				<li><a href=`${import.meta.env.BASE_URL}/about`>About</a></li>
-				<li><a href=`${import.meta.env.BASE_URL}/projects`>Projects</a></li>
-				<li><a href=`${import.meta.env.BASE_URL}/experience`>Experience</a></li>
-				<li><a href=`${import.meta.env.BASE_URL}/education`>Education</a></li>
+				{
+					navs.map(({ href, label }) => (
+						<li>
+							<a {href}>{label}</a>
+						</li>
+					))
+				}
 			</ul>
 		</nav>
 		<a class="btn text-xl btn-ghost" href={import.meta.env.BASE_URL}>Ahmad Yasser</a>
 	</div>
 	<nav class="navbar-center hidden lg:flex">
 		<ul class="menu menu-horizontal px-1">
-			<li><a href=`${import.meta.env.BASE_URL}/about`>About</a></li>
-			<li><a href=`${import.meta.env.BASE_URL}/projects`>Projects</a></li>
-			<li><a href=`${import.meta.env.BASE_URL}/experience`>Experience</a></li>
-			<li><a href=`${import.meta.env.BASE_URL}/education`>Education</a></li>
+			{
+				navs.map(({ href, label }) => (
+					<li>
+						<a {href}>{label}</a>
+					</li>
+				))
+			}
 		</ul>
 	</nav>
 	<div class="navbar-end">
